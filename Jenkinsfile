@@ -16,7 +16,8 @@ pipeline{
 				echo "Integration Build"
 			}
 		}
-	} post {
+	} 
+	post {
 		always {
 			echo "I run always" 
 		}
